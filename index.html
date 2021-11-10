@@ -1,0 +1,714 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Concert Media</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+	<style>
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		[style*="Raleway"] {font-family: 'Raleway', arial, sans-serif !important;}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border:none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100%!important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+
+		p {
+			margin: 0;
+		}
+    
+		table td {
+			border-collapse: collapse;
+			box-sizing: border-box;
+			padding: 0;
+		}
+    
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+
+
+		.main {
+			margin: 0 auto;
+		}
+
+		.main-tr {
+			border-bottom: 2px solid #193253;
+		}
+
+		.header {
+			font-size: 21px; 
+			color: #c29243; 
+			line-height: 25px; 
+			font-weight: normal;
+			padding: 0;
+			margin: 0;
+		}
+
+		.square {
+			padding-top: 30px; 
+			padding-bottom: 30px; 
+			padding-left: 20px;
+		}
+
+		@media (max-width: 780px) {
+
+			.table-800 {
+				width: 760px !important;
+			}
+
+			.table-700 {
+				width: 740px !important;
+			}
+
+		}
+
+		@media (max-width: 620px) {
+
+			.table-800 {
+				width: 600px !important;
+			}
+
+			.table-700 {
+				width: 580px !important;
+			}
+
+			.square {
+				padding-bottom: 0px !important;
+				padding-top: 0px !important;
+			}
+
+			.gewandhaus {
+				height: 124px !important;
+			}
+
+			.colored-bg {
+				background-color: #ffffff !important;
+			}
+
+			.banner {
+				height: 233px !important;
+			}
+
+		}
+
+		@media (max-width: 420px) { 
+
+			.table-800 {
+				width: 400px !important;
+			}
+
+			.table-700 {
+				width: 380px !important;
+			}
+
+			.banner {
+				height: unset !important;
+			}
+
+			.main-header {
+			    width: unset !important;
+			    display: block !important;
+			    margin: auto !important;
+			}
+
+			.data-td {
+				display: block;
+			    margin-bottom: 40px;
+			    padding-top: 20px;
+			    padding-bottom: 20px;
+			}
+
+			.square {
+			    display: block !important;
+			    padding: 20px !important;
+			    width: 380px !important;
+			}
+
+			.square br {
+			    display: none !important;
+			}
+
+			.gewandhaus {
+				display: block !important;
+    			width: 380px !important;
+			}
+
+			.venues-line-td {
+				padding-bottom: 100px !important;
+			}
+
+			.conditions-header {
+			    display: block !important;
+			    width: 380px !important;
+			}	
+
+			.conitions-text-td {
+				display: block !important;
+			    width: 380px !important;
+			    padding-bottom: 0px !important;
+			}
+
+			.conitions-text-td br {
+				display: none !important;
+			}
+
+			.conitions-img-td {
+				display: block !important;
+			    width: 380px !important;
+			}
+
+			.conditions-tbl-margin {
+				margin: auto !important;
+			}		
+
+			.golden-td {
+				width: unset !important;
+				position: unset !important;
+			}
+
+			.colored-bg.gewandhaus {
+				width: 380px !important;
+				height: unset !important;
+				padding-bottom: 50px;
+			}
+
+			.professor-text-td {
+				display: block !important;
+				margin: auto !important;
+				padding-bottom: 0 !important;
+			}
+
+			.professor-img-td {
+				display: block !important;
+				margin: auto !important;
+				padding-bottom: 40px !important;
+			}
+
+			.pricing-td {
+				display: block !important;
+			}
+
+			.passive-tbl {
+				border-left: none !important;
+				margin: auto !important;
+				margin-top: 30px !important;
+			}
+
+			.pkb-td, .ad-td, .contacts-td {
+				display: block !important;
+			}
+
+			.pkb-td, .ad-td {
+				padding-bottom: 30px;
+			}
+
+			.footer-text-td {
+				padding-left: 20px !important;
+				padding-right: 20px !important;
+			}
+
+		}
+
+		@media (max-width: 320px) { 
+
+			.table-800 {
+				width: 300px !important;
+			}
+
+			.table-700 {
+				width: 300px !important;
+			}
+
+			.banner {
+				height: unset !important;
+			}
+
+			.main-header {
+			    width: unset !important;
+			    display: block !important;
+			    margin: auto !important;
+			}
+
+			.data-td {
+				display: block;
+			    margin-bottom: 40px;
+			    padding-top: 20px;
+			    padding-bottom: 20px;
+			}
+
+			.square {
+			    display: block !important;
+			    padding: 20px !important;
+			    width: 300px !important;
+			}
+
+			.square br {
+			    display: none !important;
+			}
+
+			.gewandhaus {
+				display: block !important;
+    			width: 300px !important;
+			}
+
+			.venues-line-td {
+				padding-bottom: 100px !important;
+			}
+
+			.conditions-header {
+			    display: block !important;
+			    width: 300px !important;
+			}	
+
+			.conitions-text-td {
+				display: block !important;
+			    width: 300px !important;
+			    padding-bottom: 0px !important;
+			}
+
+			.conitions-text-td br {
+				display: none !important;
+			}
+
+			.conitions-img-td {
+				display: block !important;
+			    width: 300px !important;
+			}
+
+			.conditions-tbl-margin {
+				margin: auto !important;
+			}		
+
+			.golden-td {
+				width: unset !important;
+				position: unset !important;
+			}
+
+			.colored-bg.gewandhaus {
+				width: 300px !important;
+				height: unset !important;
+				padding-bottom: 50px;
+			}
+
+			.professor-text-td {
+				display: block !important;
+				margin: auto !important;
+				padding-bottom: 0 !important;
+			}
+
+			.professor-img-td {
+				display: block !important;
+				margin: auto !important;
+				padding-bottom: 40px !important;
+			}
+
+			.pricing-td {
+				display: block !important;
+			}
+
+			.passive-tbl {
+				border-left: none !important;
+				margin: auto !important;
+				margin-top: 30px !important;
+			}
+
+			.pkb-td, .ad-td, .contacts-td {
+				display: block !important;
+			}
+
+			.pkb-td, .ad-td {
+				padding-bottom: 30px;
+			}
+
+			.footer-text-td {
+				padding-left: 20px !important;
+				padding-right: 20px !important;
+			}
+
+			.price {
+				font-size: 15px !important;
+			}
+
+		}
+
+	</style>
+</head>
+<body style="margin: 0; padding: 0;">
+	<!--Общий фон письма -->
+	<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff">
+		<tr>
+			<td>
+				<table cellpadding="0" cellspacing="0" class="main table-800" width="800" bgcolor="#ffffff">
+					<!-- Banner -->
+					<tr>
+						<td class="banner" height="340" bgcolor="#cccccc">
+							<img src="banner.jpg" alt="banner">
+						</td>			
+					</tr>
+					<!-- Main content -->
+					<tr>
+						<td>
+							<table class="table-700" cellpadding="0" cellspacing="0" width="700" align="center">
+								<!-- first block -->
+								<tr class="main-tr" >
+									<td class="main-header" align="left" width="520" style="padding-top: 25px; padding-bottom: 25px;"><p class="header" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl' ">with PROFESSOR MICHAIL JUROWSKI (Berlin) <br /> and the Leipzig Symphony Orchestra</p></td>
+									<td class="colored-td data-td" bgcolor="#193253" width="180">
+										<table align="center">
+											<tr>
+												<td style="border-bottom: 1px solid #ffffff; padding-bottom: 10px;"><h3 style="margin: 0px; font-size: 17px; color: #ffffff; font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl' "> MAY 18-27, 2021</h3></td>
+											</tr>
+											<tr>
+												<td style="font-size: 9px; color: #ffffff; font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; padding-top: 10px; ">GEWANDHAUS LEIPZIG, Germany</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+					<tr>
+						<td style="padding-top: 40px;">
+							<table class="table-700" cellpadding="0" cellspacing="0" width="700" align="center">
+								<tr class="main-tr" >
+									<td class="venues-line-td" style="padding-bottom: 40px;">
+										<table>
+											<!-- second block -->
+											<tr>
+												<td>
+													<h3 class="header" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; margin-bottom: 35px; text-transform: uppercase;">Venues</h3>
+												</td>	
+											</tr>
+											<tr>
+												<td class="square" width="174" bgcolor="#ececed" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 13px; color: #193253;"><b>Two final concerts </b><br /> will be held on May <br /> 26 and 27 in the <br /> <b>Mendelssohn-Saal <br /> of the Gewandhaus <br /> Leipzig.</b></td>
+												<td class="square" width="174" bgcolor="#193253" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 13px; color: #ffffff;"><b> All participants</b><br /> will take part in <br /> the final concerts <br /> on the stage of the <br /> Gewandhaus.
+												</td>
+												<td class="gewandhaus" width="346" height="162" bgcolor="#cccccc">
+													<img src="gewandhaus.jpg" alt="Gewandhaus">
+												</td>
+											</tr>
+										</table>
+									</td>					
+								</tr>
+							</table>	
+						</td>
+					</tr>
+
+					<tr>
+						<td style="padding-top: 40px;">
+							<table class="table-700" cellpadding="0" cellspacing="0" width="700" align="center">
+								<tr>
+									<td>
+										<table class="conditions-tbl-margin">
+											<tr>
+												<td class="conitions-text-td" width="346" style="padding-bottom: 40px;">
+													<table width="100%">
+														<tr>
+															<td class="conditions-header" style="padding-bottom: 20px;">
+																<h3 class="header" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; margin-bottom: 35px; text-transform: uppercase;">Conditions</h3>
+																<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 13px; color: #193253;"><b>No restrictions with respect to age, nationality <br /> or experience:</b><br />both beginners and professionals can take active<br />or passive part.<br />
+																</p>
+															</td>
+														</tr>
+														<tr bgcolor="#193253">
+															<td>
+																<table>
+																	<tr>
+																		<td style="padding-left: 20px; padding-right: 15px;  padding-top: 26px; padding-bottom: 25px;" width="173">
+																			<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 10px; color: #ffffff;">The participation will be confirmed after the application form, CV and the payment are received.</p>
+																		</td>
+																		<td width="173">
+																			<p class="golden-td" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 10px; color: #ffffff; background-color: #c29243; padding: 15px; /*position: absolute; top: 20px; left:20px; width: 200px;*/ ">
+																				The choice of repertoire is free. Selected pieces are subject to confirmation. Here you may find the list of pieces chosen by other participants.
+																			</p>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td style="padding-left: 20px; padding-right: 15px; padding-top: 20px; padding-bottom: 20px" width="173">
+																			<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 10px; color: #ffffff;">
+																				The language of the master class is English. All non-English speaking participants will be asked to inform us accordingly.
+																			</p>
+																		</td>
+																		<td style="padding-left: 20px; padding-right: 15px; padding-top: 20px; padding-bottom: 20px" width="173">
+																			<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 10px; color: #ffffff;"><b>
+																				The instrumentation of the orchestra is: </b>wood 2-2-2-2, brass 4 horns, 2 trumpets, 3 trombones, 1 tuba, percussion 2, harp 1, strings.
+																			</p>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+
+												<td class="conitions-img-td" width="346" valign="top" style="vertical-align:top;">
+													<table>
+														<tr>
+															<td class="colored-bg gewandhaus" height="379" width="346" bgcolor="#cccccc" >
+																<img src="hal.jpg" alt="Gewandhaus">
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+
+										</table>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<table>
+											<tr>
+												<td class="professor-text-td" width="347" valign="top" style="vertical-align:top; padding-bottom: 40px;">
+													<table>
+														<tr>
+															<td valign="top" style="vertical-align:top;">
+																<div style="width: 330px; height: 2px; background-color: #193253;" ></div>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<h3 class="header" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; margin-bottom: 46px; margin-top: 55px; text-transform: uppercase;">Professor <br /> Michail Jurowski</h3>
+															</td>
+														</tr>
+														<tr>
+															<td style="background-color: #193253; padding-left: 20px; padding-right: 15px; padding-top: 20px; padding-bottom: 20px">
+																<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 10px; color: #ffffff;">
+																	Mastro Jurowski is a world-renowned conductor. He worked with Deutsche Oper Berlin, Metropolitan Opera New York, Chicago Symphony Orchestra, the Cleveland Orchestra and other great orchestras.
+																</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="professor-img-td" width="347" valign="top" style="vertical-align:top;">
+													<table>
+														<tr>
+															<td class="colored-bg" width="347" height="219" bgcolor="#cccccc">
+																<img src="professor.jpg" alt="3">
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p style="background-color: #ececed; padding-top: 11px; padding-bottom: 10px; width: 175px; text-align: center;"><a href="#" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 17px; color: #c29243; text-transform: uppercase; text-decoration: none;">READ MORE</a>
+																</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										<table>
+											<tr class="main-tr">
+												<td class="professor-text-td" width="347" valign="top" style="vertical-align:top; padding-bottom: 40px;">
+													<table>
+														<tr>
+															<td valign="top" style="vertical-align:top;">
+																<div style="width: 330px; height: 2px; background-color: #193253;" ></div>
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<h3 class="header" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; margin-bottom: 35px; margin-top: 50px; text-transform: uppercase;">Leipzig Symphony <br />Orchestra (LSO)</h3>
+															</td>
+														</tr>
+														<tr>
+															<td style="background-color: #193253; padding-left: 20px; padding-right: 15px; padding-top: 20px; padding-bottom: 20px">
+																<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 10px; color: #ffffff;">
+																	The Leipzig Symphony Orchestra was founded in 1963 and has been successfully developed for almost 60 years.
+																</p>
+															</td>
+														</tr>
+													</table>
+												</td>
+												<td class="professor-img-td" width="347" valign="top" style="vertical-align:top;">
+													<table>
+														<tr>
+															<td width="347" height="204" bgcolor="#cccccc">
+																<img src="orchestra.jpg" height="204" alt="3">
+															</td>
+														</tr>
+														<tr>
+															<td>
+																<p style="background-color: #ececed; padding-top: 11px; padding-bottom: 10px;width: 175px; text-align: center;"><a href="#" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 17px; color: #c29243; text-transform: uppercase; text-decoration: none;">READ MORE</a>
+																</p>
+															</td>
+														</tr>
+													</table>
+													
+
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+
+							</table>
+						</td>
+					</tr>
+					<!-- Pricing -->
+					<tr>
+						<td style="padding-top: 40px;">
+							<table class="table-700" cellpadding="0" cellspacing="0" width="700" align="center">
+								<tr class="main-tr">
+									<td>
+										<table>
+											<!-- Header -->
+											<tr>
+												<td>
+													<table>
+														<tr>
+															<td >
+																<h3 class="header" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; margin-bottom: 35px; text-transform: uppercase;"> Pricing policy</h3>
+															</td>									
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<!-- Pricing policy table -->
+											<tr>
+												<td style="background-color: #c29243; padding-top: 30px; padding-bottom: 30px;">
+													<table bgcolor="#c29243" align="center" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; color:#ffffff; font-size: 17px; text-align: center;">
+														<tr>
+															<!-- Active participation -->
+															<td class="pricing-td">
+																<table>
+																	<tr>
+																		<td>
+																			<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 17px; color: #ffffff; padding-bottom: 30px;">Active participation</p>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>
+																			<table>
+																				<tr>
+																					<td width="175" style="border-right: 0.5px solid #ffffff; vertical-align: top;" valign="top">
+																						<p style="margin-top:0; margin-right: auto; margin-left: auto; margin-bottom: 30px;">
+																							<img src="star.png" alt="star" height="15" style="display: inline">
+																						</p>
+																						<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 13px; color: #ffffff;"><span style="text-transform: uppercase;">75 minutes</span><br /> with the orchestra</p>
+																						<h3 class="price" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 25px; color: #ffffff;">1500,00 €</h3>
+																					</td>
+																					<td width="175" style="border-right: 0.5px solid #ffffff; vertical-align: top;" valign="top">
+																						<p style="margin-top:0; margin-right: auto; margin-left: auto; margin-bottom: 30px;">
+																							<img src="star.png" alt="star" height="15" style="display: inline"><img src="star.png" alt="star" height="15" style="display: inline">
+																						</p>
+
+																						<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 13px; color: #ffffff;"><span style="text-transform: uppercase;">100 minutes </span> <br /> with the orchestra</p>
+																						<h3 class="price" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 25px; color: #ffffff;">2000,00 €</h3>
+																					</td>
+																					<td width="175" style="vertical-align: top;" valign="top">
+																						<p style="margin-top:0; margin-right: auto; margin-left: auto; margin-bottom: 30px;">
+																							<img src="star.png" alt="star" height="15" style="display: inline"><img src="star.png" alt="star" height="15" style="display: inline"><img src="star.png" alt="star" height="15" style="display: inline">
+																						</p>
+																						<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 13px; color: #ffffff;"><span style="text-transform: uppercase;">125 minutes</span><br />with the orchestra</p>
+																						<h3 class="price" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 25px; color: #ffffff;">2500,00 €</h3>
+																					</td>
+																				</tr>
+																			</table>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+															<!-- Passive participation -->
+															<td class="pricing-td" valign="top" style="vertical-align: top;">
+																<table class="passive-tbl" width="172" style="border-left: 1px solid #ffffff;">
+																	<tr>
+																		<td>
+																			<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 17px; color: #ffffff; padding-bottom: 40px;">Passive <br /> participation</p>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td>
+																			<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 13px; color: #ffffff; margin-top: 35px;">Course fee</p>
+																			<h3 class="price" style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 25px; color: #ffffff; margin-top: 35px;">250,00 €</h3>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>	
+													</table>
+												</td>
+											</tr>
+
+											<!-- Description -->
+											<tr>
+												<td style="padding-bottom: 40px;padding-top: 40px;">
+													<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 10px; color: #193253;">The minimum time for active participants is 75 minutes. You may book over 200 minutes with the orchestra - please do not hesitate to ask us! All participants will receive a certificate signed by Maestro Michail Jurowski.</p>
+												</td>
+											</tr>
+										</table>
+									</td>								
+								</tr>
+							</table>
+						</td>	
+					</tr>
+					<!-- Credentials -->
+					<tr>
+						<td style="padding-top: 40px;">
+							<table class="table-700" cellpadding="0" cellspacing="0" width="700" align="center">
+								<tr>
+									<td class="pkb-td" width="234">
+										<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 13px; color: #193253;">Yours sincerely Team of the Philharmonisches <br/>Kammerorchester Berlin (PKB)</p>
+									</td>
+									<td class="ad-td" width="295">
+										<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 13px; color: #193253;">Artistic Director: <br /> <b>Michael Zukernik </b> <br />Akazienstr. 3, 10823 Berlin</p>
+									</td>
+									<td class="contacts-td" width="163" valign="bottom" style="vertical-align: bottom">
+										<p style="font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 13px; color: #193253; text-transform: uppercase; font-weight: bold;">philharmonie.com<br />concert-media.com								
+										</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<!-- Footer -->
+					<tr>
+						<td style="padding-top: 30px;">
+							<table class="table-700" cellpadding="0" cellspacing="0" width="700" align="center" bgcolor="#193253">
+								<tr>
+									<td align="center" style="text-align: center;">
+										<p class="footer-text-td" style="color: #ffffff; font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 15px; padding-bottom: 20px; padding-top: 20px;">Contact us at: <br /> <a href="#" style="color: #c29243; font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 15px; font-weight: bold; text-decoration: none;">conducting@philharmonie.com </a> or <a href="#" style="color: #c29243; font-family: Arial, Helvetica, sans-serif,'Museo Sans Cyrl'; font-size: 15px; font-weight: bold; text-decoration: none;">booking@concert-media.com</a>
+										</p>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+							
+							
+
+				</table>
+			</td>
+		</tr>
+
+	</table>
+</body>
+
+</html>
